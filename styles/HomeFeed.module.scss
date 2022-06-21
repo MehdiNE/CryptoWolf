@@ -1,0 +1,48 @@
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: blueviolet;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 50px;
+  background-color: aqua;
+
+  & > div {
+    display: flex;
+
+    & > p {
+      margin-left: 10px;
+    }
+  }
+}
+
+.trendingContainer {
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.trending {
+  display: grid;
+  grid-auto-flow: column;
+  place-items: center;
+  gap: 10px;
+  width: 95%;
+  height: 200px;
+  background-color: aquamarine;
+  margin: auto;
+  overflow-x: auto;
+}
+
+.trendingCoin {
+  display: flex;
+  width: 250px;
+  height: 100px;
+  background-color: blanchedalmond;
+}

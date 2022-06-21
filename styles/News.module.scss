@@ -1,0 +1,33 @@
+.news {
+  display: flex;
+  min-height: 100vh;
+  //   min-width: 100%;
+  //   max-width: 1500px;
+  // overflow: hidden;
+  //   position: relative;
+  //   margin-left: auto;
+  //   margin-right: auto;
+}
+
+.sidebar {
+  width: 15%;
+  position: fixed;
+
+  @media (max-width: 1024px) {
+    width: 70px;
+  }
+
+  @media (max-width: 640px) {
+    width: 0;
+  }
+}
+
+.mainContainer {
+  margin-left: 270px;
+  flex: 1;
+  overflow: auto;
+
+  @media (max-width: 640px) {
+    margin-left: 0;
+  }
+}

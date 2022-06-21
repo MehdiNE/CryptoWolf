@@ -1,0 +1,32 @@
+.sidebar {
+  height: 100vh;
+  background-color: rgb(173, 181, 189);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  padding: 8px;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+  .logo > p {
+    display: none;
+  }
+  .sidebar {
+    align-items: center;
+  }
+}
+@media (max-width: 640px) {
+  .sidebar {
+    display: none;
+  }
+}

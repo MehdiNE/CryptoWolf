@@ -1,0 +1,23 @@
+.container {
+  //   width: 100%;
+  //   min-height: 100vh;
+  //   background-color: aqua;
+  //   padding: 10px;
+  width: 95%;
+}
+
+.wrapper {
+  //   width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  grid-gap: 20px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}

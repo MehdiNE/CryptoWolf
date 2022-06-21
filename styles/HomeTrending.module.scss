@@ -1,0 +1,12 @@
+.trendingCoin {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 100px;
+  background-color: blanchedalmond;
+
+  & > img {
+    width: 30px;
+    height: 30px;
+  }
+}
